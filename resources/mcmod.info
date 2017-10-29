@@ -1,0 +1,12 @@
+[
+{
+	"modid": "tutorial",
+	"name": "Eldariel learns to code",
+	"description": "A mod tutorial for Minecraft 1.12.2",
+	"version": "${version}",
+	"mcversion": "${mcversion}",
+	"url": "https://gitthub.com/Eldariel/Test",
+	"authors": [ "Eldariel" ],
+	"credits": ""
+}
+]

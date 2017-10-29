@@ -1,5 +1,7 @@
 package net.eldariel23.tutorial.item;
 
+import net.eldariel23.tutorial.Tutorial;
+import net.eldariel23.tutorial.lib.Names;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -18,5 +20,10 @@ public class ItemTutorial extends Item {
 		
 		return super.onItemRightClick(world, player, hand);
 	}
-
+	
+	@Override
+	public String getUnlocalizedName(ItemStack stack) {
+		
+		return "item." + Tutorial.RESOURCE_PREFIX + Names.TUTORIAL_ITEM; //item.tutorial:tutorial_item
+	}
 }
