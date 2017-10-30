@@ -13,13 +13,13 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 
 public class ModItems {
 
+	@GameRegistry.ObjectHolder("tutorial:tutorial_item")
 	public static ItemTutorial tutorialItem;
 	
 	public static void init() {
 		
 		tutorialItem = new ItemTutorial();
-		tutorialItem.setRegistryName(new ResourceLocation(Tutorial.MOD_ID, Names.TUTORIAL_ITEM));
-		GameRegistry.register(tutorialItem);
+		//tutorialItem.setRegistryName(new ResourceLocation(Tutorial.MOD_ID, Names.TUTORIAL_ITEM));
 	}
 	
 	@SideOnly(Side.CLIENT)

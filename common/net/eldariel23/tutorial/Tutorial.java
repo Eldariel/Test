@@ -32,7 +32,7 @@ public class Tutorial {
 	@EventHandler
 	public void preInit(FMLPreInitializationEvent event) {
 		
-		proxy.preInit(event);
+		//proxy.preInit(event);
 	}
 	
 	@EventHandler
